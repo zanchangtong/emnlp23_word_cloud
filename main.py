@@ -112,6 +112,6 @@ titles = []
 for file in files:
     extracted_titles = extract_titles_from_bib_file(file)
     titles += extracted_titles
-generate_wordcloud_from_list(titles, 30)
+generate_wordcloud_from_list(titles, 100)
 # generate_cooccurrence_wordcloud(titles, target_phrase="machine translation")
 
